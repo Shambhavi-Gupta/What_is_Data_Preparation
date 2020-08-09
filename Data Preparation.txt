@@ -1,46 +1,101 @@
 Data Preparation
 
-Data preparation is the process of gathering, combining, structuring and organizing data so it can be used in business intelligence (BI), analytics and data visualization applications. The components of data preparation include data pre-processing, profiling, cleansing, validation and transformation; it often also involves pulling together data from different internal systems and external sources.
+Data preparation is the process of gathering, combining, structuring and organizing data so it can be 
+used in business intelligence (BI), analytics and data visualization applications. The components
+of data preparation include data pre-processing, profiling, cleansing, validation and transformation;
+it often also involves pulling together data from different internal systems and external sources.
 
-Data preparation work is done by information technology (IT), BI and data management teams as they integrate data sets to load into a data warehouse, NoSQL database or data lake repository or when new analytics applications are developed. In addition, data scientists, other data analysts and business users can use self-service data preparation tools to collect and prepare data themselves.
+Data preparation work is done by information technology (IT), BI and data management teams as they
+integrate data sets to load into a data warehouse, NoSQL database or data lake repository or when 
+new analytics applications are developed. In addition, data scientists, other data analysts and
+business users can use self-service data preparation tools to collect and prepare data themselves.
 
-Data preparation is often referred to informally as data prep. It's also known as data wrangling, although some practitioners use that term in a narrower sense to refer to cleansing, structuring and transforming data as part of the overall data preparation process, distinguishing it from the data pre-processing stage.
+Data preparation is often referred to informally as data prep. It's also known as data wrangling, 
+although some practitioners use that term in a narrower sense to refer to cleansing, structuring and
+transforming data as part of the overall data preparation process, distinguishing it from the data
+pre-processing stage.
 
 Purposes of data preparation
-One of the primary purposes of data preparation is to ensure that raw data being readied for data processing and analysis is accurate and consistent so the results of BI and analytics applications will be valid. Data is commonly created with missing values, inaccuracies or other errors. Additionally, separate data sets often have different formats that need to be reconciled. Correcting data errors, verifying data quality and joining data sets constitutes a big part of the data preparation process.
+One of the primary purposes of data preparation is to ensure that raw data being readied for data
+processing and analysis is accurate and consistent so the results of BI and analytics applications
+will be valid. Data is commonly created with missing values, inaccuracies or other errors. Additionally,
+separate data sets often have different formats that need to be reconciled. Correcting data errors,
+verifying data quality and joining data sets constitutes a big part of the data preparation process.
 
 
-Data preparation also involves finding relevant data to include in analytics applications to ensure they deliver the information that analysts or business users are seeking. The data can also be enriched and optimized to make it more informative and useful -- for example, by blending internal and external data sets, creating new data fields, eliminating outlier values and addressing imbalanced data sets that could skew analytics results.
+Data preparation also involves finding relevant data to include in analytics applications to ensure 
+they deliver the information that analysts or business users are seeking. The data can also be enriched
+and optimized to make it more informative and useful -- for example, by blending internal and external
+data sets, creating new data fields, eliminating outlier values and addressing imbalanced data sets
+that could skew analytics results.
 
-In addition, BI and data management teams can use the data preparation process to curate data sets for business users to analyze. Doing so helps streamline and guide self-service BI applications for business analysts, executives and workers.
+In addition, BI and data management teams can use the data preparation process to curate data sets for
+business users to analyze. Doing so helps streamline and guide self-service BI applications for business 
+analysts, executives and workers.
 
 Main features of self-service data prep toolsGARTNER
 Data preparation software capabilities and data prep steps
 Steps in the data preparation process
-The process of preparing data includes several distinct steps. There are variations in the steps listed by different data preparation vendors and data professionals, but the process typically involves the following tasks:
+The process of preparing data includes several distinct steps. There are variations in the steps
+listed by different data preparation vendors and data professionals, but the proces
+s typically involves the following tasks:
 
-Data collection. Relevant data is gathered from operational systems, data warehouses and other data sources. During this step, members of the BI team, other data professionals and end users gathering data themselves should confirm that the data is a good fit for the objectives of the planned applications.
-Data discovery and profiling. The next step is to explore the collected data to better understand what it contains and what needs to be done to prepare it for the intended uses. Data profiling helps identify patterns, inconsistencies, anomalies, missing data, and other attributes and issues in data sets so problems can be addressed.
-Data cleansing. In this step, the identified data errors are corrected to create complete and accurate data sets that are ready to be processed and analyzed. For example, faulty data is removed or fixed, missing values are filled in and inconsistent entries are harmonized.
-Data structuring. At this point, the data needs to be structured, modeled and organized into a unified format that will meet the requirements of the planned analytics uses.
-Data transformation and enrichment. In connection with structuring data, it often must be transformed to make it consistent and turn it into usable information. Data enrichment and optimization further enhance data sets as needed to produce the desired business insights.
-Data validation and publishing. To complete the preparation process, automated routines are run against the data to validate its consistency, completeness and accuracy. The prepared data is then stored in a data warehouse or other repository and made available for use.
+Data collection. Relevant data is gathered from operational systems, data warehouses
+and other data sources. During this step, members of the BI team, other data professionals
+and end users gathering data themselves should confirm that the data is a good fit for
+the objectives of the planned applications.
+Data discovery and profiling. The next step is to explore the collected data to better 
+understand what it contains and what needs to be done to prepare it for the intended uses.
+Data profiling helps identify patterns, inconsistencies, anomalies, missing data, and other
+attributes and issues in data sets so problems can be addressed.
+Data cleansing. In this step, the identified data errors are corrected to create complete
+and accurate data sets that are ready to be processed and analyzed. For example, faulty
+data is removed or fixed, missing values are filled in and inconsistent entries are harmonized.
+Data structuring. At this point, the data needs to be structured, modeled and organized
+into a unified format that will meet the requirements of the planned analytics uses.
+Data transformation and enrichment. In connection with structuring data, it often must be
+transformed to make it consistent and turn it into usable information. Data enrichment and
+optimization further enhance data sets as needed to produce the desired business insights.
+Data validation and publishing. To complete the preparation process, automated routines are run 
+against the data to validate its consistency, completeness and accuracy. The prepared data is
+then stored in a data warehouse or other repository and made available for use.
 Benefits of data preparation
-Data scientists often complain that they spend a majority of their time locating and cleansing data rather than analyzing it. A big benefit of instituting an effective data preparation process is that they and other end users can spend less time finding and structuring data and instead focus more on data mining and data analysis -- the BI-related activities that deliver business value. For example, data preparation can be done more quickly, and prepared data can automatically be fed to users for repetitive analyses.
+Data scientists often complain that they spend a majority of their time locating and cleansing
+data rather than analyzing it. A big benefit of instituting an effective data preparation process
+is that they and other end users can spend less time finding and structuring data and instead
+focus more on data mining and data analysis -- the BI-related activities that deliver business 
+value. For example, data preparation can be done more quickly, and prepared data can automatically
+be fed to users for repetitive analyses.
 
 A well-managed data preparation program also helps an organization do the following:
 
-ensure that the data used for BI, machine learning, predictive analytics and other analytics applications has sufficient quality levels to produce reliable results;
+ensure that the data used for BI, machine learning, predictive analytics and other analytics 
+applications has sufficient quality levels to produce reliable results;
 avoid duplication of efforts in preparing data that can be used in multiple applications;
 prepare data for analysis in a cost-effective and efficient way;
 identify and fix data issues that otherwise might not be detected;
 make more informed business decisions because executives have access to better data; and
 get more business value and a higher return on investment (ROI) from its BI and analytics initiatives.
-Effective data preparation can be particularly beneficial in big data environments with data lakes, often built around Hadoop clusters, that store large amounts of structured, semistructured and unstructured data, often in raw form. In many big data applications, data preparation is largely an automated task: Machine learning algorithms can speed things up by examining data fields and automatically filling in blank values, fixing errors or renaming fields to ensure consistency when data sets are being joined.
+Effective data preparation can be particularly beneficial in big data environments with data
+lakes, often built around Hadoop clusters, that store large amounts of structured, semistructured
+and unstructured data, often in raw form. In many big data applications, data preparation is 
+largely an automated task: Machine learning algorithms can speed things up by examining data 
+fields and automatically filling in blank values, fixing errors or renaming fields to ensure
+consistency when data sets are being joined.
 
 Data preparation tools and market
-Data preparation is a time-consuming task that can pull skilled BI, analytics and data management practitioners away from more high-value work, especially as the volume of data used in analytics applications continues to grow. However, various software vendors have introduced self-service data preparation tools that automate data preparation methods, enabling data professionals and business users to discover, access, profile, cleanse and transform data in a streamlined and interactive way.
+Data preparation is a time-consuming task that can pull skilled BI, analytics and data management
+practitioners away from more high-value work, especially as the volume of data used in analytics
+applications continues to grow. However, various software vendors have introduced self-service
+data preparation tools that automate data preparation methods, enabling data professionals 
+and business users to discover, access, profile, cleanse and transform data in a streamlined 
+and interactive way.
 
-After data has been gathered and reconciled, data preparation software runs files through a workflow, during which specific operations are applied to them. For example, this step may involve creating a new field that aggregates counts from preexisting fields or applying a statistical formula, such as a linear or logistic regression model, to the data. After going through the workflow, data is output into a finalized file that can be loaded into a data warehouse or other data store to be analyzed.
+After data has been gathered and reconciled, data preparation software runs files through a workflow,
+during which specific operations are applied to them. For example, this step may involve creating a
+new field that aggregates counts from preexisting fields or applying a statistical formula, such 
+as a linear or logistic regression model, to the data. After going through the workflow, data is
+output into a finalized file that can be loaded into a data warehouse or other data store to be analyzed.
 
-Self-service data preparation tools generally also feature graphical user interfaces (GUIs) that are designed to simplify the work required to complete the various steps in the data prep process.
+Self-service data preparation tools generally also feature graphical user interfaces (GUIs) that are
+designed to simplify the work required to complete the various steps in the data prep process.
